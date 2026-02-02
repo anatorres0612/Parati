@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Ti ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navegación -->
+        <nav class="navbar">
+            <div class="nav-content">
+                <h1 class="logo">Para Ti ❤️</h1>
+                <ul class="nav-links">
+                    <li><a href="#" class="nav-link active" data-section="message">Mensaje del Día</a></li>
+                    <li><a href="#" class="nav-link" data-section="gallery">Galería</a></li>
+                    <li><a href="#" class="nav-link" data-section="tasting">Carta Digital</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Contenido Principal -->
+        <main class="main-content">
+            <!-- Sección de Mensaje del Día -->
+            <section id="message" class="section active">
+                <div class="message-container">
+                    <div class="time-display" id="timeDisplay">00:00</div>
+                    <div class="message-box">
+                        <h2>Mensaje de hoy</h2>
+                        <p id="dailyMessage" class="daily-message">Cargando mensaje...</p>
+                        <div class="message-time" id="messageTime"></div>
+                    </div>
+                    <div class="hearts-animation">
+                        <span class="heart">❤️</span>
+                        <span class="heart">💕</span>
+                        <span class="heart">💖</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de Galería -->
+            <section id="gallery" class="section">
+                <div class="gallery-container">
+                    <h2>Nuestros Recuerdos</h2>
+                    <div class="gallery-grid" id="galleryGrid">
+                        <!-- Las fotos se generarán con JavaScript -->
+                    </div>
+                </div>
+                <!-- Modal para ver fotos -->
+                <div id="photoModal" class="modal hidden">
+                    <div class="modal-content">
+                        <span class="close-modal">&times;</span>
+                        <img id="modalPhoto" src="" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de Cata Digital -->
+            <section id="tasting" class="section">
+                <div class="tasting-container">
+                    <h2>Carta Digital</h2>
+                    <div class="tasting-message">
+                        <p>Soy feliz contigo y cada momento a tu lado es especial para mí.</p>
+                        <p>Eres la razón de mis sonrisas y la magia en mi vida.</p>
+                    </div>
+                    <div class="tasting-grid" id="tastingGrid">
+                        <!-- Los elementos se generarán con JavaScript -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Modal de Cartita -->
+        <div id="messageModal" class="message-modal hidden">
+            <div class="modal-overlay" onclick="closeMessageModal()"></div>
+            <div class="message-card">
+                <button class="close-card" onclick="closeMessageModal()">✕</button>
+                <div class="card-content">
+                    <p id="cardMessage"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Hecho con amor para ti 💝</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
