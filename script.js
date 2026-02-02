@@ -12,111 +12,112 @@ const hourlyMessages = [
     "☀️ Levántate, el día nos espera.",
     "☀️ Desayunaste bien? Que disfrutes el día.",
     "☀️ Hoy es un día más juntas.",
-    "🌞 Hola, ¿cómo va tu día?",
+    "🌞 Holi te amo mucho, no lo olvides",
     "🌞 Espero que estés bien.",
-    "🌞 Falta poco para verte.",
+    "🌞 Ojalá podamos vernos pronto.",
     "🌞 Sigues en mi mente.",
-    "🌤️ Ya es tarde, ¿cómo te fue?",
+    "🌤️ Ya es tarde, espero que tu día haya ido bien.",
     "🌤️ Esta hora me recuerda que quiero verte.",
     "🌤️ Pronto estaremos juntas.",
     "🌤️ Disfruta la tarde, yo pienso en ti.",
     "🌅 El atardecer es lindo cuando pienso en ti.",
-    "🌅 Casi llego la noche, casi te veo.",
+    "🌅 La noche se acerca, te mando un abrazo.",
     "🌙 La noche llegó, te extraño.",
     "🌙 Buenas noches, que descanses bien."
 ];
 
 // Elementos de la cata digital con mensajes personalizados
 const tastingItems = [
-    { 
-        emoji: '😊', 
+    {
+        emoji: '😊',
         text: 'Felicidad',
         messages: [
-            'Tu sonrisa me hace sonreír',
-            'Eres mi razón para estar feliz',
-            'Contigo los días son mejores',
-            'Me haces muy feliz',
-            'Gracias por estar aquí'
+            'Tu sonrisa ilumina mis días',
+            'Eres una de mis mayores alegrías',
+            'A tu lado todo se siente más bonito',
+            'Mi corazón se calma cuando estás conmigo',
+            'Gracias por existir en mi vida'
         ]
     },
     { 
         emoji: '💕', 
         text: 'Amor',
         messages: [
-            'Te quiero mucho',
-            'Mi corazón es tuyo',
-            'Te amo',
-            'Eres importante para mí',
-            'Cada día te quiero más'
+            'Te quiero más de lo que puedo decir',
+            'Mi corazón siempre te elige',
+            'Elegirte cada día me nace del alma',
+            'Eres un lugar seguro para mí',
+            'Cada día me enamoro un poquito más'
         ]
     },
     { 
         emoji: '🌟', 
         text: 'Especial',
         messages: [
-            'Eres especial para mí',
-            'Tu presencia significa mucho',
-            'Contigo me siento bien',
-            'Eres importante en mi vida',
-            'Cada momento contigo es valioso'
+            'Tienes una luz que no se parece a ninguna otra',
+            'Tu forma de ser me encanta',
+            'Contigo puedo ser yo misma',
+            'Eres alguien muy valiosa para mí',
+            'Tu presencia hace todo más especial'
         ]
     },
     { 
         emoji: '🎉', 
         text: 'Alegría',
         messages: [
-            'Contigo todo es más divertido',
-            'Me das muchas alegrias',
-            'Eres mi compañera favorita',
-            'Me haces reír mucho',
-            'Los días contigo son especiales'
+            'A tu lado siempre encuentro motivos para sonreír',
+            'Tu compañía hace los días más lindos',
+            'Eres mi mejor plan',
+            'Me encanta compartir momentos contigo',
+            'La vida contigo sabe mejor'
         ]
     },
     { 
         emoji: '🔥', 
         text: 'Pasión',
         messages: [
-            'Me atraes mucho',
-            'Contigo siento mariposas',
-            'Me encanta verte',
-            'Deseo estar contigo',
-            'Tu energía me atrae'
+            'Tu mirada sabe exactamente lo que me provoca',
+            'Contigo la chispa se vuelve fuego… y me encanta',
+            'Me atraes de una forma que no intento controlar',
+            'Hay algo en ti que despierta mis ganas',
+            'Estar cerca de ti me desarma por completo'
         ]
     },
     { 
         emoji: '✨', 
         text: 'Magia',
         messages: [
-            'Hay algo especial en ti',
-            'Me atraes de muchas formas',
-            'Eres fascinante',
-            'Tu esencia es hermosa',
-            'Contigo todo brilla más'
+            'A tu lado todo se siente natural y real',
+            'Hay algo en ti que me atrapa sin razón',
+            'Tu presencia cambia mi energía',
+            'Tienes una forma muy tuya de brillar',
+            'Estar contigo siempre se siente especial'
         ]
     },
     { 
         emoji: '🌹', 
         text: 'Romance',
         messages: [
-            'Eres mi persona favorita',
-            'Contigo es perfecto',
-            'Nuestros momentos son lindos',
-            'Eres hermosa',
-            'Te veo y sonrío'
+            'Eres mi lugar favorito',
+            'Me gusta imaginar la vida contigo',
+            'Nuestros momentos tienen algo especial',
+            'Tu sonrisa es mi debilidad',
+            'Pensar en ti me hace sonreír'
         ]
     },
     { 
         emoji: '💫', 
         text: 'Sueños',
         messages: [
-            'Contigo se cumplen cosas bonitas',
-            'Eres parte de mis planes',
-            'Deseo un futuro contigo',
-            'Me haces feliz pensando en nosotras',
-            'Juntas podemos lograr mucho'
+            'Me ilusiona pensar en nosotras',
+            'Eres parte de lo que quiero construir',
+            'Sueño cosas lindas a tu lado',
+            'Imaginar el futuro contigo me hace feliz',
+            'Juntas podemos crear algo hermoso'
         ]
     }
-];
+]
+
 
 // Fotos de la galería (archivos locales en /images)
 const galleryPhotos = [
